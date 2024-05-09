@@ -1,11 +1,11 @@
 import pandas as pd
-import openpyxl
+import numpy as np
 
 # Maximum number of entries per XLSX file
 MAX_ENTRIES_PER_FILE = 248
 
 # Load the complete CSV file with the updated column index
-df = pd.read_csv('worldcities.csv', index_col=0)
+df = pd.read_csv('Date.csv', index_col=0)
 
 # Group by country
 groups_by_country = df.groupby('country')
@@ -29,7 +29,7 @@ for country, country_data in groups_by_country:
     
     # If the number of entries reaches or exceeds MAX_ENTRIES_PER_FILE, concatenate the temporary DataFrames and save them to an XLSX file
     if entry_counter >= MAX_ENTRIES_PER_FILE:
-        file_name = rf"C:\New folder\worldcities_{country}_{file_counter}.xlsx"
+        file_name = rf"C:\New folder\Date_{country}_{file_counter}.xlsx"
         temp_df_concatenated = pd.concat(temp_dfs)
         
         # Set 'country' as the index in the XLSX file
@@ -45,7 +45,7 @@ for country, country_data in groups_by_country:
 
 # Save the temporary DataFrames if there are remaining entries to process
 if temp_dfs:
-    file_name = rf'C:\New folder\worldcities_{country}_{file_counter}.xlsx'
+    file_name = rf'C:\New folder\Date_{country}_{file_counter}.xlsx'
     temp_df_concatenated = pd.concat(temp_dfs)
     
     # Set 'country' as the index in the XLSX file
