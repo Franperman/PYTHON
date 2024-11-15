@@ -1,0 +1,18 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        {
+            "type": "firefox",
+            "request": "launch",
+            "name": "Open index.html with Firefox",
+            "file": "c:\\Users\\Fanper\\Documents\\PYTHON\\Proyectos_IA\\trabajar_con_IA\\regla_de_tres\\index.html",
+            "reAttach": true,
+            "firefoxExecutable": "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+        }
+    ]
+}

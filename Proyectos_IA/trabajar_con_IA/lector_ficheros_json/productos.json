@@ -1,0 +1,62 @@
+[
+    {
+        "ID": 1,
+        "Nombre": "Dulce Suspiro",
+        "Descripcion": "Caramelos de menta hechos a mano para endulzar tus momentos.",
+        "Precio": 3.50
+    },
+    {
+        "ID": 2,
+        "Nombre": "Biscotti Solar",
+        "Descripcion": "Galletas crujientes con un toque de almendras y miel.",
+        "Precio": 5.20
+    },
+    {
+        "ID": 3,
+        "Nombre": "Nube Dorada",
+        "Descripcion": "Algodón de azúcar con sabor a frambuesa y toques de caramelo.",
+        "Precio": 2.00
+    },
+    {
+        "ID": 4,
+        "Nombre": "Café Nebuloso",
+        "Descripcion": "Mezcla de café molido con toques de cacao y vainilla.",
+        "Precio": 7.80
+    },
+    {
+        "ID": 5,
+        "Nombre": "Aceite Lunar",
+        "Descripcion": "Aceite de oliva virgen extra prensado en frío, con un ligero sabor a tomillo.",
+        "Precio": 10.00
+    },
+    {
+        "ID": 6,
+        "Nombre": "Mermelada Estelar",
+        "Descripcion": "Mermelada de frutos rojos y manzana, con una pizca de canela.",
+        "Precio": 4.75
+    },
+    {
+        "ID": 7,
+        "Nombre": "Chocolate Cometa",
+        "Descripcion": "Tableta de chocolate negro al 85% con trocitos de almendra caramelizada.",
+        "Precio": 6.50
+    },
+    {
+        "ID": 8,
+        "Nombre": "Jugo de Aurora",
+        "Descripcion": "Jugo natural de naranja, zanahoria y jengibre para empezar bien el día.",
+        "Precio": 3.80
+    },
+    {
+        "ID": 9,
+        "Nombre": "Té Nocturno",
+        "Descripcion": "Infusión de hierbas relajantes con manzanilla, lavanda y menta.",
+        "Precio": 5.00
+    },
+    {
+        "ID": 10,
+        "Nombre": "Sirope Arcoíris",
+        "Descripcion": "Sirope de frutas tropicales para acompañar helados y postres.",
+        "Precio": 4.30
+    }
+]
