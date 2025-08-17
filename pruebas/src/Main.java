@@ -22,8 +22,8 @@ public class Main {
         UsuarioPedros francisco_ostia = new UsuarioPedros();
         francisco_ostia.nombre  = "Francisco";
         francisco_ostia.apellidos = "Barriuso Bravo";
-        francisco_ostia.Tamano = "Null";
-        francisco_ostia.edad = 48;
+        francisco_ostia.Tamano = null;
+        francisco_ostia.edad = 49;
         francisco_ostia.direccion = "San Pedro de Ojeda";
         francisco_ostia.telefollo = "660287895";
 
